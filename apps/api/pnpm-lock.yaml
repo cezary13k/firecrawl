@@ -129,7 +129,7 @@ importers:
         version: 2.0.6
       http-cookie-agent:
         specifier: ^7.0.1
-        version: 7.0.1(tough-cookie@4.1.4)(undici@7.10.0)
+        version: 7.0.1(tough-cookie@4.1.4)(undici@7.18.2)
       ioredis:
         specifier: ^5.6.1
         version: 5.6.1
@@ -194,8 +194,8 @@ importers:
         specifier: ^16.1.0
         version: 16.1.0
       systeminformation:
-        specifier: ^5.27.14
-        version: 5.27.14
+        specifier: ^5.30.8
+        version: 5.30.8
       tldts:
         specifier: ^6.1.75
         version: 6.1.75
@@ -206,8 +206,8 @@ importers:
         specifier: ^7.1.3
         version: 7.2.0
       undici:
-        specifier: ^7.10.0
-        version: 7.10.0
+        specifier: ^7.18.2
+        version: 7.18.2
       uuid:
         specifier: ^13.0.0
         version: 13.0.0
@@ -3280,6 +3280,9 @@ packages:
   bn.js@5.2.2:
     resolution: {integrity: sha512-v2YAxEmKaBLahNwE1mjp4WON6huMNeuDvagFZW+ASCuA/ku0bXR9hSMw0XpiqMoA3+rmnyck/tPRSFQkoC9Cuw==}
 
+  bn.js@5.2.3:
+    resolution: {integrity: sha512-EAcmnPkxpntVL+DS7bO1zhcZNvCkxqtkd0ZY53h06GNQ3DEkkGZ/gKgmDv6DdZQGj9BgfSPKtJJ7Dp1GPP8f7w==}
+
   body-parser@1.20.3:
     resolution: {integrity: sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
@@ -3903,6 +3906,9 @@ packages:
   eventemitter3@5.0.1:
     resolution: {integrity: sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==}
 
+  eventemitter3@5.0.4:
+    resolution: {integrity: sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GLClnjLFw==}
+
   events@3.3.0:
     resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
     engines: {node: '>=0.8.x'}
@@ -4149,11 +4155,12 @@ packages:
   glob@10.4.2:
     resolution: {integrity: sha512-GwMlUF6PkPo3Gk21UxkCohOv0PLcIXVtKyLlpEI28R/cO/4eNOdmLk3CMW1wROV/WR/EsZOWAfBbBOqYvs88/w==}
     engines: {node: '>=16 || 14 >=14.18'}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   google-auth-library@10.5.0:
     resolution: {integrity: sha512-7ABviyMOlX5hIVD60YOfHw4/CxOfBhyduaYB+wbFWCWoni4N7SLcV46hrVRktuBbZjFC9ONyqamZITN7q3n32w==}
@@ -4722,8 +4729,8 @@ packages:
     resolution: {integrity: sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A==}
     engines: {node: '>=6'}
 
-  libpq@1.8.15:
-    resolution: {integrity: sha512-4lSWmly2Nsj3LaTxxtFmJWuP3Kx+0hYHEd+aNrcXEWT0nKWaPd9/QZPiMkkC680zeALFGHQdQWjBvnilL+vgWA==}
+  libpq@1.9.0:
+    resolution: {integrity: sha512-/o/IlSJqHiwD5UoGUQnl/vxSEdsGEteuLyAQ1gYsZ/e/vqOP3E1AXp+4iqaGNYQJ+OVLb55iRiNv2Gml8usHrg==}
 
   lilconfig@3.1.3:
     resolution: {integrity: sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw==}
@@ -4951,8 +4958,8 @@ packages:
     resolution: {integrity: sha512-WWdIxpyjEn+FhQJQQv9aQAYlHoNVdzIzUySNV1gHUPDSdZJ3yZn7pAAbQcV7B56Mvu881q9FZV+0Vx2xC44VWA==}
     engines: {node: ^18.17.0 || >=20.5.0}
 
-  nan@2.22.2:
-    resolution: {integrity: sha512-DANghxFkS1plDdRsX0X9pm0Z6SJNN6gBdtXfanwoZ8hooC5gosGFSBGRYHUVPz1asKA/kMRqDRdHrluZ61SpBQ==}
+  nan@2.23.1:
+    resolution: {integrity: sha512-r7bBUGKzlqk8oPBDYxt6Z0aEdF1G1rwlMcLk8LCOMbOzf0mG+JUfUzG4fIMWwHWP0iyaLWEQZJmtB7nOHEm/qw==}
 
   nano-spawn@1.0.2:
     resolution: {integrity: sha512-21t+ozMQDAL/UGgQVBbZ/xXvNO10++ZPuTmKRO8k9V3AClVRht49ahtDjfY8l1q6nSHOrE5ASfthzH3ol6R/hg==}
@@ -5377,8 +5384,8 @@ packages:
   preact@10.24.2:
     resolution: {integrity: sha512-1cSoF0aCC8uaARATfrlz4VCBqE8LwZwRfLgkxJOQwAlQt6ayTmi0D9OF7nXid1POI5SZidFuG9CnlXbDfLqY/Q==}
 
-  preact@10.27.2:
-    resolution: {integrity: sha512-5SYSgFKSyhCbk6SrXyMpqjb5+MQBgfvEKE/OC+PujcY34sOpqtr+0AZQtPYx5IA6VxynQ7rUPCtKzyovpj9Bpg==}
+  preact@10.28.4:
+    resolution: {integrity: sha512-uKFfOHWuSNpRFVTnljsCluEFq57OKT+0QdOiQo8XWnQ/pSvg7OpX5eNOejELXJMWy+BwM2nobz0FkvzmnpCNsQ==}
 
   prettier@3.6.2:
     resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
@@ -5655,6 +5662,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.4:
+    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   send@0.19.0:
     resolution: {integrity: sha512-dW41u5VfLXu8SJh5bwRmyYUbAoSB3c9uQh6L8h/KtsFREPWpbX1lrljJo186Jc4nmci/sGUZ9a0a0J2zgfq2hw==}
     engines: {node: '>= 0.8.0'}
@@ -5910,8 +5922,8 @@ packages:
     resolution: {integrity: sha512-MeQTA1r0litLUf0Rp/iisCaL8761lKAZHaimlbGK4j0HysC4PLfqygQj9srcs0m2RdtDYnF8UuYyKpbjHYp7Jw==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  systeminformation@5.27.14:
-    resolution: {integrity: sha512-3DoNDYSZBLxBwaJtQGWNpq0fonga/VZ47HY1+7/G3YoIPaPz93Df6egSzzTKbEMmlzUpy3eQ0nR9REuYIycXGg==}
+  systeminformation@5.30.8:
+    resolution: {integrity: sha512-imB8LwJCc2DkufKlSRHfzbjhheGzpg1P31A4c55IKTq/ll6Agn1rhBOY+WmS/hyg5inGFp7AyZIK0gvq5rFO2Q==}
     engines: {node: '>=8.0.0'}
     os: [darwin, linux, win32, freebsd, openbsd, netbsd, sunos, android]
     hasBin: true
@@ -6098,8 +6110,8 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici@7.10.0:
-    resolution: {integrity: sha512-u5otvFBOBZvmdjWLVW+5DAc9Nkq8f24g0O9oY7qw2JVIF1VocIFoyz9JFkuVOS2j41AufeO0xnlweJ2RLT8nGw==}
+  undici@7.18.2:
+    resolution: {integrity: sha512-y+8YjDFzWdQlSE9N5nzKMT3g4a5UBX1HKowfdXh0uvAnTaqqwqB92Jt4UXBAeKekDs5IaDKyJFR4X1gYVCgXcw==}
     engines: {node: '>=20.18.1'}
 
   universal-user-agent@7.0.3:
@@ -6301,6 +6313,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -6957,14 +6970,14 @@ snapshots:
 
   '@coinbase/wallet-sdk@3.9.3':
     dependencies:
-      bn.js: 5.2.2
+      bn.js: 5.2.3
       buffer: 6.0.3
       clsx: 1.2.1
       eth-block-tracker: 7.1.0
       eth-json-rpc-filters: 6.0.1
-      eventemitter3: 5.0.1
+      eventemitter3: 5.0.4
       keccak: 3.0.4
-      preact: 10.27.2
+      preact: 10.28.4
       sha.js: 2.4.12
     transitivePeerDependencies:
       - supports-color
@@ -7725,7 +7738,7 @@ snapshots:
       '@ethereumjs/tx': 4.2.0
       '@types/debug': 4.1.12
       debug: 4.4.3
-      semver: 7.7.3
+      semver: 7.7.4
       superstruct: 1.0.4
     transitivePeerDependencies:
       - supports-color
@@ -7753,7 +7766,7 @@ snapshots:
       '@types/debug': 4.1.12
       debug: 4.4.3
       pony-cause: 2.1.11
-      semver: 7.7.3
+      semver: 7.7.4
       uuid: 9.0.1
     transitivePeerDependencies:
       - supports-color
@@ -10610,6 +10623,8 @@ snapshots:
 
   bn.js@5.2.2: {}
 
+  bn.js@5.2.3: {}
+
   body-parser@1.20.3:
     dependencies:
       bytes: 3.1.2
@@ -11242,6 +11257,8 @@ snapshots:
 
   eventemitter3@5.0.1: {}
 
+  eventemitter3@5.0.4: {}
+
   events@3.3.0: {}
 
   eventsource-parser@3.0.0: {}
@@ -11685,12 +11702,12 @@ snapshots:
       domutils: 3.1.0
       entities: 4.5.0
 
-  http-cookie-agent@7.0.1(tough-cookie@4.1.4)(undici@7.10.0):
+  http-cookie-agent@7.0.1(tough-cookie@4.1.4)(undici@7.18.2):
     dependencies:
       agent-base: 7.1.3
       tough-cookie: 4.1.4
     optionalDependencies:
-      undici: 7.10.0
+      undici: 7.18.2
 
   http-errors@2.0.0:
     dependencies:
@@ -12429,10 +12446,10 @@ snapshots:
 
   leven@3.1.0: {}
 
-  libpq@1.8.15:
+  libpq@1.9.0:
     dependencies:
       bindings: 1.5.0
-      nan: 2.22.2
+      nan: 2.23.1
     optional: true
 
   lilconfig@3.1.3: {}
@@ -12648,7 +12665,7 @@ snapshots:
 
   mute-stream@2.0.0: {}
 
-  nan@2.22.2:
+  nan@2.23.1:
     optional: true
 
   nano-spawn@1.0.2: {}
@@ -12995,7 +13012,7 @@ snapshots:
 
   pg-native@3.5.2:
     dependencies:
-      libpq: 1.8.15
+      libpq: 1.9.0
       pg-types: 2.2.0
     optional: true
 
@@ -13105,7 +13122,7 @@ snapshots:
 
   preact@10.24.2: {}
 
-  preact@10.27.2: {}
+  preact@10.28.4: {}
 
   prettier@3.6.2: {}
 
@@ -13381,6 +13398,8 @@ snapshots:
   semver@7.6.2: {}
 
   semver@7.7.3: {}
+
+  semver@7.7.4: {}
 
   send@0.19.0:
     dependencies:
@@ -13667,7 +13686,7 @@ snapshots:
     dependencies:
       '@pkgr/core': 0.2.9
 
-  systeminformation@5.27.14: {}
+  systeminformation@5.30.8: {}
 
   tdigest@0.1.2:
     dependencies:
@@ -13840,7 +13859,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  undici@7.10.0: {}
+  undici@7.18.2: {}
 
   universal-user-agent@7.0.3: {}
 
